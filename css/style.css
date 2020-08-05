@@ -1,0 +1,210 @@
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800'; */
+
+
+/* Color */
+
+body {
+    color: #111111;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+}
+
+a {
+    color: #dcb14a;
+    background-color: transparent;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+.footer-link {
+    color: #999;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(17, 17, 17, 0.99);
+}
+
+.navbar-nav .nav-link.active {
+    color: #dcb14a;
+}
+
+.navbar-brand {
+    color: #dcb14a;
+}
+
+.text-dark {
+    color: #111111;
+}
+
+.btn {
+    color: #212529;
+    background-color: transparent;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #111111;
+}
+
+
+/* font  */
+
+
+/* font-family */
+
+
+/* body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+}
+.btn {
+    font-family: inherit;
+} */
+
+
+/* font-size */
+
+
+/* .footer-link {
+    font-size: 0.85rem;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.95rem;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+.btn {
+    font-size: 1rem;
+} */
+
+
+/* font-weight */
+
+
+/* body {
+    font-weight: 400;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 800;
+}
+
+.btn {
+    font-weight: 400;
+}
+
+.btn-link {
+    font-weight: 400;
+} */
+
+
+/* line-height */
+
+
+/* body {
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+.btn {
+    line-height: 1.5;
+} */
+
+
+/* text */
+
+
+/* align */
+
+
+/* body {
+    text-align: left;
+}
+
+.btn {
+    text-align: center;
+} */
+
+
+/* decoration */
+
+
+/* a {
+    text-decoration: none;
+} */
+
+
+/* transform */
+
+
+/* .text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+} */
+
+
+/* list style */
+
+
+/* .navbar-nav {
+    list-style: none;
+}
+
+.list-unstyled {
+    list-style: none;
+} */

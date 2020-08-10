@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,9 +18,9 @@
         <div class="container px-3">
             <nav class="navbar px-0">
                 <!-- brand -->
-                <a class="navbar-brand" href="index.html"><span class="font-weight-bold text-uppercase text-dark">Peculiar Shopahlc</span></a>
+                <a class="navbar-brand float-left" href="index.html"><span class="font-weight-bold text-uppercase text-dark">Peculiar Shopahlc</span></a>
                 <div class="inline-block">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto float-left">
                         <li class="nav-item">
                             <!-- Link-->
                             <a class="nav-link active" href="index.html">Home</a>
@@ -44,7 +45,7 @@
                             </div>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto float-right">
                         <!-- cart -->
                         <li class="nav-item">
                             <a class="nav-link" href="cart.html"> <i class="fas fa-dolly-flatbed text-gray"></i>Cart<small class="text-gray">(2)</small></a>
@@ -82,36 +83,39 @@
 
         </section>
     </div>
+    <div class="container px-3 clearfix">
+        <section class="pt-5">
+            <header class="text-center">
+                <p class="text-muted small text-uppercase mb-1">Carefully created collections</p>
+                <h2 class="text-uppercase mb-4">Browse our categories</h2>
+            </header>
+            <div class="row">
+                <!--3 columns -->
+                <div class="col-4 mb-4 float-left">
+                    <a href="shop.html">
+                        <img src="images/cat-img-1.jpg" alt="" class="img-fluid"><strong>Clothes</strong>
+                    </a>
+                </div>
+                <div class="col-4 mb-4 float-left">
+                    <a href="shop.html">
+                        <img src="images/cat-img-2.jpg" alt="" class="img-fluid"><strong>Shoes</strong></a>
+                    <a href="shop.html">
+                        <img src="images/cat-img-3.jpg" alt="" class="img-fluid"><strong>Watches</strong>
+                    </a>
+                </div>
+                <div class="col-4 mb-4 float-right">
+                    <a href="shop.html">
+                        <img src="images/cat-img-4.jpg" alt="" class="img-fluid"><strong>Electronics</strong>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- <div class="cf"></div> -->
 
-    <section class="pt-5">
-        <header class="text-center">
-            <p class="text-muted small text-uppercase mb-1">Carefully created collections</p>
-            <h2 class="text-uppercase mb-4">Browse our categories</h2>
-        </header>
-        <div class="row">
-            <!--3 columns -->
-            <div class="col-4 mb-4">
-                <a href="shop.html">
-                    <img src="images/cat-img-1.jpg" alt="" class="img-fluid"><strong>Clothes</strong>
-                </a>
-            </div>
-            <div class="col-4 mb-4">
-                <a href="shop.html">
-                    <img src="images/cat-img-2.jpg" alt="" class="img-fluid"><strong>Shoes</strong></a>
-                <a href="shop.html">
-                    <img src="images/cat-img-3.jpg" alt="" class="img-fluid"><strong>Watches</strong>
-                </a>
-            </div>
-            <div class="col-4 mb-4">
-                <a href="shop.html">
-                    <img src="images/cat-img-4.jpg" alt="" class="img-fluid"><strong>Electronics</strong>
-                </a>
-            </div>
-        </div>
-    </section>
 
     <!-- overlay -->
-    <div>
+    <div class="overlay-trend">
         <h6>Aliquet justo fusce</h6>
         <p>Aliquet justo sagittis et curabitur est elit aliquam sit amet tellus euismod</p>
         <a href="#">Sagittis nibh &raquo;</a>
@@ -160,9 +164,9 @@
 
         </div>
     </section>
-
+    <div class="cf"></div>
     <!-- overlay -->
-    <div>
+    <div class="overlay-trend">
         <div>
             <h3>Nunc lobortis non</h3>
             <p>Tristique senectus et netus et malesuada fames ac turpis egestas.</p>
@@ -179,15 +183,16 @@
         </ul>
     </div>
 
+    <!-- SERVICES-->
     <section class="py-5 bg-light">
         <!-- container -->
         <div class="container">
-            <!-- SERVICES-->
+
             <!-- container -->
             <!-- row -->
             <div class="row text-center">
                 <!-- 3 columns -->
-                <div class="col-4 mb-3">
+                <div class="col-4 mb-3 float-left">
                     <div class="d-inline-block">
                         <div class="media align-items-end">
                             <div class="d-inline-block">
@@ -197,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 mb-3">
+                <div class="col-4 mb-3 float-left">
                     <div class="d-inline-block">
                         <div class="media align-items-end">
                             <div class="d-inline-block">
@@ -207,7 +212,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 float-right">
                     <div class="d-inline-block">
                         <div class="media align-items-end">
                             <div class="d-inline-block">
@@ -229,11 +234,11 @@
             <!-- container -->
             <!-- row -->
             <div class="row">
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-3 float-left">
                     <h5>Let's be friends!</h5>
                     <p class="text-small text-muted">Nisi nisi tempor consequat laboris nisi.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 float-right">
                     <form action="#">
                         <div>
                             <input type="email" placeholder="Enter your email address">
@@ -253,7 +258,7 @@
             <!-- row -->
             <div class="row py-5">
                 <!-- 3 columns -->
-                <div class="col-4 mb-3">
+                <div class="col-4 mb-3 float-left">
                     <h6 class="text-uppercase">Customer services</h6>
                     <ul class="list-unstyled">
                         <li><a class="footer-link" href="#">Help &amp; Contact Us</a></li>
@@ -262,7 +267,7 @@
                         <li><a class="footer-link" href="#">Terms &amp; Conditions</a></li>
                     </ul>
                 </div>
-                <div class="col-4 mb-3">
+                <div class="col-4 mb-3 float-left">
                     <h6 class="text-uppercase">Company</h6>
                     <ul class="list-unstyled">
                         <li><a class="footer-link" href="#">What We Do</a></li>
@@ -271,7 +276,7 @@
                         <li><a class="footer-link" href="#">FAQs</a></li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-4 float-right">
                     <h6 class="text-uppercase">Social media</h6>
                     <ul class="list-unstyled">
                         <li><a class="footer-link" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>

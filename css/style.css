@@ -72,6 +72,10 @@ a:hover {
     font-weight: 700;
 }
 
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
 .text-center {
     text-align: center !important;
 }
@@ -158,6 +162,17 @@ button.bg-dark:focus {
     background-color: transparent !important;
 }
 
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+a.bg-light:hover,
+a.bg-light:focus,
+button.bg-light:hover,
+button.bg-light:focus {
+    background-color: #dae0e5 !important;
+}
+
 
 /* border */
 
@@ -185,7 +200,7 @@ button.bg-dark:focus {
     min-height: 25rem;
     background-color: #ccc;
     background-image: url("../images/bg1.jpg");
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .hero p {
@@ -203,87 +218,8 @@ button.bg-dark:focus {
     padding: 6em 0;
     background-color: #eee;
     background-image: url("../images/bg2.jpeg");
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-}
-
-
-/* navbar */
-
-.nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.navbar {
-    padding: 0.5rem 1rem;
-}
-
-.inline-block,
-.nav-item {
-    display: inline-block;
-}
-
-.navbar-brand {
-    font-size: 1.25rem;
-    color: #dcb14a;
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    line-height: inherit;
-    white-space: nowrap;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-    text-decoration: none;
-}
-
-.navbar-nav {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-}
-
-.navbar-nav .nav-link {
-    font-size: 0.95rem;
-    color: rgba(17, 17, 17, 0.99);
-    font-weight: 800;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navbar-nav .nav-link.active {
-    color: #dcb14a;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    text-decoration: none;
-    color: #dcb14a;
-}
-
-.navbar-text {
-    display: inline-block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.navbar>.container {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navbar .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 

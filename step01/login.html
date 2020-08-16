@@ -9,7 +9,7 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
+    <!-- <link href="css/form.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -18,8 +18,7 @@
         <div class="container px-3">
             <nav class="navbar px-0">
                 <!-- brand -->
-                <a class="navbar-brand" href="index.html"><span
-                        class="font-weight-bold text-uppercase text-dark">Peculiar Shopahlc</span></a>
+                <a class="navbar-brand" href="index.html"><span class="font-weight-bold text-uppercase text-dark">Peculiar Shopahlc</span></a>
                 <div class="container">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
@@ -53,8 +52,7 @@
                         </li>
                         <!-- like -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> <i class="far fa-heart"></i><small class="text-gray">
-                                    (0)</small></a>
+                            <a class="nav-link" href="#"> <i class="far fa-heart"></i><small class="text-gray"> (0)</small></a>
                         </li>
                         <!-- login -->
                         <li class="nav-item">
@@ -68,69 +66,49 @@
     </header>
 
     <!-- Contact SECTION-->
-
     <!-- container -->
     <div class="container">
         <!-- row -->
         <div class="row">
-            <!-- form contact -->
+            <!-- form login -->
             <form class="text-center border border-light p-5 m-auto" action="#!">
 
-                <h4 class="h4 mb-4">Contact us</h4>
-
-                <!-- Name -->
-                <input type="text" class="form-control mb-4" placeholder="Name">
+                <h4 class="h4 mb-4">Sign in</h4>
 
                 <!-- Email -->
-                <input type="email" class="form-control mb-4" placeholder="E-mail" required>
+                <input type="email" class="mb-4" placeholder="E-mail">
 
-                <!-- Subject -->
-                <label>Subject</label>
-                <select class="custom-select mb-4">
-                    <option value="" disabled>Choose option</option>
-                    <option value="1" selected>Feedback</option>
-                    <option value="2">Report a bug</option>
-                    <option value="3">Feature request</option>
-                    <option value="4">Feature request</option>
-                </select>
+                <!-- Password -->
+                <input type="password" class="mb-4" placeholder="Password">
 
-                <!-- Message -->
-                <div class="form-group">
-                    <textarea class="form-control rounded-0" rows="3" placeholder="Message"></textarea>
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <!-- Remember me -->
+                        <div class="">
+                            <input type="checkbox" class="" id="formRemember">
+                            <label class="" for="formRemember">Remember me</label>
+                        </div>
+                        <p class="my-1">
+                            <!-- Forgot password -->
+                            <a href="forgot.html">Forgot password?</a>
+                        </p>
+                    </div>
+
                 </div>
 
-                <!-- Copy -->
-                <div class="custom-control custom-checkbox mb-4">
-                    <input type="checkbox" class="custom-control-input" id="contactFormCopy">
-                    <label class="custom-control-label" for="contactFormCopy">Send me a copy of this message</label>
-                </div>
+                <!-- Sign in button -->
+                <button class="btn btn-dark btn-block my-4" type="submit">Sign in</button>
 
-                <!-- Send button -->
-                <button class="btn btn-dark btn-block" type="submit">Send</button>
+                <!-- Register -->
+                <p>Not a member?
+                    <a href="register.html">Register</a>
+                </p>
+
 
             </form>
-            <!-- ./form contact -->
+            <!-- Default form login -->
         </div>
     </div>
-
-    <!-- NEWSLETTER-->
-    <section class="text-center border border-light p-5">
-        <!-- Subscribe -->
-        <p class="h4 mb-4">Let's be friends!</p>
-        <p>Join our mailing list. We write rarely, but only the best content.</p>
-        <p>
-            <a href="" target="_blank">See the last newsletter</a>
-        </p>
-        <div class="text-center border border-light p-5">
-            <form class="flex-form">
-                <label for="from">
-                    <i class="fas fa-info-circle"></i>
-                </label>
-                <input type="email" placeholder="Enter your email address">
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white">

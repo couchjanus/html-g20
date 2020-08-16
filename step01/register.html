@@ -9,7 +9,7 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
+    <!-- <link href="css/form.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -67,70 +67,71 @@
         </div>
     </header>
 
-    <!-- Contact SECTION-->
+    <!-- Register SECTION-->
 
     <!-- container -->
     <div class="container">
         <!-- row -->
         <div class="row">
-            <!-- form contact -->
+            <!-- form register -->
             <form class="text-center border border-light p-5 m-auto" action="#!">
 
-                <h4 class="h4 mb-4">Contact us</h4>
+                <h4 class="h4 mb-4">Sign up</h4>
 
-                <!-- Name -->
-                <input type="text" class="form-control mb-4" placeholder="Name">
-
-                <!-- Email -->
-                <input type="email" class="form-control mb-4" placeholder="E-mail" required>
-
-                <!-- Subject -->
-                <label>Subject</label>
-                <select class="custom-select mb-4">
-                    <option value="" disabled>Choose option</option>
-                    <option value="1" selected>Feedback</option>
-                    <option value="2">Report a bug</option>
-                    <option value="3">Feature request</option>
-                    <option value="4">Feature request</option>
-                </select>
-
-                <!-- Message -->
-                <div class="form-group">
-                    <textarea class="form-control rounded-0" rows="3" placeholder="Message"></textarea>
+                <div class="row mb-4">
+                    <div class="col-6 mx-0">
+                        <!-- First name -->
+                        <input type="text" class="" placeholder="First name" autofocus>
+                    </div>
+                    <div class="col-6 mx-0">
+                        <!-- Last name -->
+                        <input type="text" class="" placeholder="Last name">
+                    </div>
                 </div>
 
-                <!-- Copy -->
-                <div class="custom-control custom-checkbox mb-4">
-                    <input type="checkbox" class="custom-control-input" id="contactFormCopy">
-                    <label class="custom-control-label" for="contactFormCopy">Send me a copy of this message</label>
+                <!-- E-mail -->
+                <input type="email" class="mb-4" placeholder="E-mail">
+
+                <!-- Password -->
+                <input type="password" class="" placeholder="Password">
+                <small class="form-text text-muted mb-4">
+                    At least 8 characters and 1 digit
+                </small>
+                <input type="password" class="" placeholder="Confirm Password">
+                <small class="form-text text-muted mb-4">
+                    Retype password again
+                </small>
+
+                <!-- Phone number -->
+                <input type="tel" class="" placeholder="Phone number">
+                <small class="form-text text-muted mb-4">
+                    Optional - for two step authentication
+                </small>
+
+                <!-- Newsletter -->
+                <div class="">
+                    <input type="checkbox" class="" id="registerFormNewsletter">
+                    <label class="" for="registerFormNewsletter">Subscribe to our
+                        newsletter</label>
                 </div>
 
-                <!-- Send button -->
-                <button class="btn btn-dark btn-block" type="submit">Send</button>
-
+                <!-- Sign up button -->
+                <button class="btn btn-dark my-4 btn-block" type="submit">Register</button>
+                <hr>
+                <!-- Terms of service -->
+                <p>By clicking
+                    <em>Sign up</em> you agree to our
+                    <a href="" target="_blank">terms of service</a>
+                </p>
+                <!-- Sign in -->
+                <p>Already a member?
+                    <a href="login.html">Sign in</a>
+                </p>
             </form>
-            <!-- ./form contact -->
+            <!-- Default form register -->
+
         </div>
     </div>
-
-    <!-- NEWSLETTER-->
-    <section class="text-center border border-light p-5">
-        <!-- Subscribe -->
-        <p class="h4 mb-4">Let's be friends!</p>
-        <p>Join our mailing list. We write rarely, but only the best content.</p>
-        <p>
-            <a href="" target="_blank">See the last newsletter</a>
-        </p>
-        <div class="text-center border border-light p-5">
-            <form class="flex-form">
-                <label for="from">
-                    <i class="fas fa-info-circle"></i>
-                </label>
-                <input type="email" placeholder="Enter your email address">
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white">
@@ -180,6 +181,7 @@
             </div>
         </div>
     </footer>
+
 
 </body>
 

@@ -1,0 +1,45 @@
+/* form */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%;
+}

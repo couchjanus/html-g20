@@ -210,7 +210,7 @@ button.bg-light:focus {
 }
 
 .border-top {
-    border-top: 1px solid #dee2e6 !important;
+    border-top: 1px solid #1d1d1d !important;
 }
 
 .border-right {
@@ -328,4 +328,63 @@ button.bg-light:focus {
 .reset-anchor:hover,
 .reset-anchor:focus {
     text-decoration: none;
+}
+
+
+/* float */
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-none {
+    float: none !important;
+}
+
+.cf {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+
+@media (min-width: 576px) {
+    .border-sm {
+        border: 1px solid #dee2e6 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .border-md {
+        border: 1px solid #dee2e6 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .border-lg {
+        border: 1px solid #dee2e6 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .border-xl {
+        border: 1px solid #dee2e6 !important;
+    }
 }

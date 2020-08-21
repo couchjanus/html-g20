@@ -308,18 +308,6 @@ button.bg-light:focus {
 }
 
 
-/* footer */
-
-.footer-link {
-    font-size: 0.85rem;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-    padding-left: 0.6rem;
-    color: #fff;
-    text-decoration: none;
-}
 
 .reset-anchor {
     color: inherit;

@@ -282,14 +282,16 @@ button.bg-light:focus {
 }
 
 .hero {
-    min-height: 25rem;
-    background-color: #ccc;
-    background-image: url("../images/bg1.jpg");
-    background-size: cover;
+    /* min-height: 25em; */
+    background-color: transparent;
+    /* background-image: url("../images/bg1.jpg"); */
+    /* background: transtarent; */
+    overflow: hidden;
+    /* background-size: cover; */
 }
 
 .hero p {
-    padding-top: 6rem;
+    padding-top: 6em;
     padding-bottom: 2em;
 }
 
